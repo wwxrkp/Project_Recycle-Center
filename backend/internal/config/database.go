@@ -41,7 +41,7 @@ func ConnectDatabase() error {
 		&entity.RegistrationForm{},
 		&entity.Factory{},
 
-		// Filme: material master, quality assessment, and inventory.
+		// Film: material master, quality assessment, and inventory.
 		&entity.MaterialType{},
 		&entity.Material{},
 		&entity.MaterialAssessmentItem{},
